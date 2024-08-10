@@ -6,7 +6,7 @@
 }
 
 .ds4.white.disconnected {
-    background: none;
+    background: url(disconnected.svg);
 }
 
 .ds4.white .trigger {
@@ -18,7 +18,7 @@
 }
 
 .ds4.white .touchpad.pressed {
-    background-image: none;
+    background-image: url(touchpad.svg);
 }
 
 .ds4.white .back, .ds4 .start {
