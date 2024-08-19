@@ -6,7 +6,7 @@
 
 
 .controller.ds4{
-    background-image: url(Base.png);
+    background-image: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Base.png);
     position: absolute;
 
     width: 1864px;
@@ -47,7 +47,7 @@
     width: 217px;
     height: 201px;
     z-index: 37;
-    background: url(L2.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/L2.png);
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -57,7 +57,7 @@
     width: 218px;
     height: 200px;
     z-index: 38;
-    background: url(R2.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/R2.png);
     position: absolute;
     background-repeat:no-repeat;
 }
@@ -77,7 +77,7 @@
         width: 247px;
         height: 46px;
         z-index: 40;
-        background: url(L1.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/L1.png);
         position: absolute;
         background-repeat:no-repeat;
     }
@@ -91,7 +91,7 @@
         width: 247px;
         height: 45px;
         z-index: 39;
-        background: url(L1.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/L1.png);
         position: absolute;
         background-repeat:no-repeat;
     }
@@ -124,7 +124,7 @@
         width: 70px;
         height: 121px;
         z-index: 42;
-        background: url(Share.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Share.png);
         position: absolute;
         opacity: 1;
     }
@@ -135,7 +135,7 @@
         width: 70px;
         height: 121px;
         z-index: 43;
-        background: url(Options.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Options.png);
         opacity: 1;
     }
 
@@ -153,7 +153,7 @@
         position: absolute;
         width: 1px;
         height: 1px;
-        background: url(face.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/face.png);
 
     }
     
@@ -163,7 +163,7 @@
     }
 
     .ds4 .a.pressed{
-        background: url(X.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/X.png); 
         left: 930px;
         top: 515px;
         width: 136px;
@@ -173,7 +173,7 @@
     }
 
     .ds4 .b.pressed{
-        background: url(Circle.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Circle.png);
         left: 1075px;
         top: 370px;
         width: 137px;
@@ -183,7 +183,7 @@
     }
 
     .ds4 .x.pressed{
-        background: url(Square.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Square.png); 
         left: 785px;
         top: 370px;
         width: 136px;
@@ -194,7 +194,7 @@
 
 
     .ds4 .y.pressed{
-        background: url(Triangle.png) ; 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Triangle.png) ; 
         left: 930px;
         top: 225px;
         width: 139px;
@@ -204,7 +204,7 @@
     }
 
     .ds4 .meta.pressed{
-        background: url(PS_Button.png) ; 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/PS_Button.png) ; 
         left: 890px;
         top: 825px;
         width: 104px;
@@ -222,7 +222,7 @@
     
     .ds4 .stick.pressed.left{
         position: absolute;
-        background: url(L3.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/L3.png);
         left: 158px;
         top: 260px;
         width: 241px;
@@ -233,7 +233,7 @@
 
     .ds4 .stick.pressed.right{
         position: absolute;
-        background: url(R3.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/R3.png);
         left: 810px;
         top: 265px;
         width: 241px;
@@ -244,7 +244,7 @@
     
     .ds4 .stick.left{
         position: absolute;
-        background: url(LS.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/LS.png);
         left: 158px;
         top: 260px;
         width: 241px;
@@ -255,7 +255,7 @@
     
     .ds4 .stick.right{
         position: absolute;
-        background: url(RS.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/RS.png);
         left: 810px;
         top: 265px;
         width: 241px;
@@ -275,12 +275,12 @@
     }
     
     .ds4 .face{
-        background: url(Dpad.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Dpad.png);
         position: absolute;
     }
 
     .ds4 .face.right.pressed{
-        background: url(Right.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Right.png); 
         left: 340px;
         top: 530px;
         width: 395px;
@@ -290,7 +290,7 @@
     }
     
     .ds4 .face.left.pressed{
-        background: url(Left.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Left.png); 
         left: 145px;
         top: 530px;
         width: 148px;
@@ -300,7 +300,7 @@
     }
     
     .ds4 .face.up.pressed{
-        background: url(Up.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Up.png); 
         left: 250px;
         top: 425px;
         width: 116px;
@@ -310,7 +310,7 @@
     }
     
     .ds4 .face.down.pressed{ 
-        background: url(Down.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/Down.png); 
         left: 250px;
         top: 610px;
         width: 117px;
@@ -326,7 +326,7 @@
         height: 385px;
         z-index: 41;
     
-        background: url(TouchPad.png);
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/Cherry%20Blossom/TouchPad.png);
         background-repeat:no-repeat;
     }
 
