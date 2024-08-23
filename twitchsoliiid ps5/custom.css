@@ -3,7 +3,7 @@
 
 
 .controller.ds5 {
-    background: url(ps5-assets/White_SkinNo_Buttons.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/White_SkinNo_Buttons.png);
     height: 700px;
     width: 1200px;
     /*    margin-left: -403px;
@@ -25,7 +25,7 @@
 .ds5 .trigger {
     width: 99px;
     height: 100%;
-    background: url(ps5-assets/Trigger_Pressed.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Trigger_Pressed.png);
     opacity: 0;
 }
 
@@ -41,7 +41,7 @@
 .ds5 .bumper {
     width: 200px;
     height: 45px;
-    background: url(ps5-assets/Bumper.png) no-repeat;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Bumper.png) no-repeat;
     opacity: 0;
 }
 
@@ -63,6 +63,10 @@
     float: left;
 }
 
+
+
+
+
 .ds5 .bumper.right {
     float: right;
     transform: rotateY(180deg);
@@ -77,7 +81,7 @@
 }
 
 .ds5 .touchpad.pressed {
-    background: url(ps5-assets/Touchpad.png) no-repeat center;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Touchpad.png) no-repeat center;
 }
 
 .ds5 .meta {
@@ -89,7 +93,7 @@
 }
 
 .ds5 .meta.pressed {
-    background: url(ps5-assets/Home.png) no-repeat center;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Home.png) no-repeat center;
 }
 
 .ds5 .p0 {
@@ -116,6 +120,10 @@
     left: 500px;
 }
 
+
+
+
+
 .ds5 .back,
 .ds5 .start {
 
@@ -125,16 +133,14 @@
 }
 
 .ds5 .start {
-    background: url(ps5-assets/Select.png);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Select.png);
     position: absolute;
     left: 546px;
     top: 175px;
 }
 
 .ds5 .back {
-    background: url(ps5-assets/Select.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Select.png);
     position: absolute;
     left: 398px;
     top: 175px;
@@ -156,7 +162,7 @@
 .ds5 .start {
     float: right;
     /* width: 28px; */
-    background-position: 0px 0;
+    /* background-position: 0px 0; */
 }
 
 .ds5 .abxy {
@@ -171,7 +177,8 @@
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(ps5-assets/FaceButtons.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/FaceButtons.png);
+    transform: scale(1.1);
 }
 
 .ds5 .button.pressed {
@@ -212,7 +219,7 @@
 
 .ds5 .stick {
     position: absolute;
-    background: url(ps5-assets/Sticks.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -244,8 +251,9 @@
 }
 
 .ds5 .face {
-    background: url(ps5-assets/Dpad.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Dpad.png);
     position: absolute;
+    transform: scale(1.5);
 }
 
 .ds5 .face.up,
@@ -267,9 +275,10 @@
 }
 
 .ds5 .face.down {
-    left: 44px;
+    left: 45px;
     bottom: 0;
     background-position: 0px 0;
+    
 }
 
 .ds5 .face.left {
@@ -297,7 +306,7 @@
 
 .ds5.white .back,
 .ds5 .start {
-    background-image: url(ps5-assets/Start.png);
+    background-image: url(https://dxdeathstrike.github.io/GamePadViewer/twitchsoliiid%20ps5/Start.png);
     width: 26px;
     height: 43px;
 }
