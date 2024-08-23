@@ -1,20 +1,21 @@
-
-/* Begin PS5 Controller Styling */
-
-
-.controller.ds5 {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/base.png);
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(base.png) no-repeat center center;
+    /* Center the background image */
+    background-size: fill;
+    /* Adjust this depending on your needs (cover, contain, etc.) */
     height: 700px;
     width: 1200px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
+    /* margin-left: -403px;
+       margin-top: -280px; */
 }
 
-.ds5.disconnected div {
+
+.ds4.disconnected div {
     display: none;
 }
 
-.ds5 .triggers {
+.ds4 .triggers {
     width: 598px;
     height: 90px;
     position: absolute;
@@ -22,30 +23,30 @@
     top: 38px;
 }
 
-.ds5 .trigger {
+.ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Trigger_Pressed.png);
+    background: url(Trigger_Pressed.png);
     opacity: 0;
 }
 
-.ds5 .trigger.left {
+.ds4 .trigger.left {
     float: left;
 }
 
-.ds5 .trigger.right {
+.ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
 }
 
-.ds5 .bumper {
+.ds4 .bumper {
     width: 200px;
     height: 45px;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Bumper.png) no-repeat;
+    background: url(Bumper.png) no-repeat;
     opacity: 0;
 }
 
-.ds5 .bumpers {
+.ds4 .bumpers {
     position: absolute;
     width: 672px;
     height: 23px;
@@ -53,26 +54,22 @@
     top: 132px;
 }
 
-.ds5 .bumper.pressed {
+.ds4 .bumper.pressed {
     opacity: 0.8;
 }
 
-.ds5 .bumper.left {
+.ds4 .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
 }
 
-
-
-
-
-.ds5 .bumper.right {
+.ds4 .bumper.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.ds5 .touchpad {
+.ds4 .touchpad {
     width: 350px;
     height: 300px;
     position: absolute;
@@ -80,11 +77,11 @@
     top: 74px;
 }
 
-.ds5 .touchpad.pressed {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Touchpad.png) no-repeat center;
+.ds4 .touchpad.pressed {
+    background: url(Touchpad.png) no-repeat center;
 }
 
-.ds5 .meta {
+.ds4 .meta {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -92,80 +89,74 @@
     bottom: 264px;
 }
 
-.ds5 .meta.pressed {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Home.png) no-repeat center;
+.ds4 .meta.pressed {
+    background: url(Home.png) no-repeat center;
 }
 
-.ds5 .p0 {
+.ds4 .p0 {
     background-position: 0 -6px;
 }
 
-.ds5 .p1 {
+.ds4 .p1 {
     background-position: 0 -28px;
 }
 
-.ds5 .p2 {
+.ds4 .p2 {
     background-position: 0 -49px;
 }
 
-.ds5 .p3 {
+.ds4 .p3 {
     background-position: 0 -70px;
 }
 
-*/ .ds5 .arrows {
+*/ .ds4 .arrows {
     position: absolute;
     width: 352px;
     height: 46px;
     top: 142px;
-    left: 500px;
+    left: 227px;
 }
 
-
-
-
-
-.ds5 .back,
-.ds5 .start {
-
+.ds4 .back,
+.ds4 .start {
+    background: url(Select.png);
     width: 26px;
     height: 43px;
     opacity: 0;
 }
 
-.ds5 .start {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Select.png);
+.ds4 .start {
     position: absolute;
     left: 546px;
-    top: 175px;
+    bottom: -30px;
 }
 
-.ds5 .back {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/back.png);
+.ds4 .back {
     position: absolute;
-    left: 398px;
-    top: 175px;
+    left: 170px;
+    bottom: -30px;
 }
 
 
-.ds5 .back.pressed,
-.ds5 .start.pressed {
+.ds4 .back.pressed,
+.ds4 .start.pressed {
     /* background-position-y: -21px; */
     /* margin-top: 2px; */
     opacity: 1;
 }
 
-.ds5 .back {
+.ds4 .back {
     float: left;
     /* width: 28px; */
 }
 
-.ds5 .start {
+.ds4 .start {
     float: right;
     /* width: 28px; */
-    /* background-position: 0px 0; */
+    background-position: 0px 0;
 }
 
-.ds5 .abxy {
+.ds4 .abxy {
     position: absolute;
     width: 170px;
     height: 171px;
@@ -173,76 +164,75 @@
     left: 762px;
 }
 
-.ds5 .button {
+.ds4 .button {
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/FaceButtons.png);
-    transform: scale(1.1);
+    background: url(FaceButtons.png);
 }
 
-.ds5 .button.pressed {
+.ds4 .button.pressed {
     background-position-y: 55px;
     /* margin-top: 5px; */
 }
 
-.ds5 .a {
+.ds4 .a {
     background-position: 0 0;
     bottom: 0px;
     left: 58px;
 }
 
-.ds5 .b {
+.ds4 .b {
     background-position: -57px 0;
     top: 57px;
     right: -3px;
 }
 
-.ds5 .x {
+.ds4 .x {
     background-position: -113px 0;
     top: 57px;
 }
 
-.ds5 .y {
+.ds4 .y {
     background-position: 55px 0;
     left: 58px;
     bottom: 119px;
 }
 
-.ds5 .sticks {
+.ds4 .sticks {
     position: absolute;
     width: 364px;
     height: 105px;
     top: 348px;
-    left: 427px;
+    left: 422px;
 }
 
-.ds5 .stick {
+.ds4 .stick {
     position: absolute;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Sticks.png);
+    background: url(Sticks.png);
     height: 94px;
     width: 94px;
 }
 
-.ds5 .stick.pressed.left {
+.ds4 .stick.pressed.left {
     background-position-x: -96px;
 }
 
-.ds5 .stick.pressed.right {
+.ds4 .stick.pressed.right {
     background-position-x: -192px;
 }
 
-.ds5 .stick.left {
+.ds4 .stick.left {
     top: 0;
     left: 0;
 }
 
-.ds5 .stick.right {
+.ds4 .stick.right {
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
 
-.ds5 .dpad {
+.ds4 .dpad {
     position: absolute;
     width: 125px;
     height: 126px;
@@ -250,66 +240,63 @@
     left: 286px;
 }
 
-.ds5 .face {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Dpad.png);
+.ds4 .face {
+    background: url(Dpad.png);
     position: absolute;
-    transform: scale(1.5);
 }
 
-.ds5 .face.up,
-.ds5 .face.down {
+.ds4 .face.up,
+.ds4 .face.down {
     width: 37px;
     height: 52px;
 }
 
-.ds5 .face.left,
-.ds5 .face.right {
+.ds4 .face.left,
+.ds4 .face.right {
     width: 52px;
     height: 40px;
 }
 
-.ds5 .face.up {
+.ds4 .face.up {
     left: 44px;
     top: 0;
     background-position: -37px 0px;
 }
 
-.ds5 .face.down {
-    left: 45px;
+.ds4 .face.down {
+    left: 44px;
     bottom: 0;
     background-position: 0px 0;
-    
 }
 
-.ds5 .face.left {
+.ds4 .face.left {
     top: 45px;
     left: 0;
     background-position: 104px 0;
 }
 
-.ds5 .face.right {
+.ds4 .face.right {
     top: 45px;
     right: 0px;
     background-position: 52px 0;
 }
 
-.ds5 .face.pressed {
+.ds4 .face.pressed {
     /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
-.ds5.half {
+.ds4.half {
     margin-top: -300px;
 }
 
+/*END PS4 Controller Styling*/
 
-
-.ds5.white .back,
-.ds5 .start {
-    background-image: url(https://dxdeathstrike.github.io/GamePadViewer/Basic%20PS5/Start.png);
+.ds4.white .back,
+.ds4 .start {
+    background-image: url(Start.png);
     width: 26px;
     height: 43px;
 }
 
-
-/*END PS5 Controller Styling*/
+/*END PS4 White Controller Styling*/
