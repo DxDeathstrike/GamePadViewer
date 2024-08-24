@@ -2,7 +2,7 @@
 /* Begin PS5 Controller Styling */
 
 .controller.ds5 {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/test/base.png) no-repeat center center;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/test/base.gif) no-repeat center center;
     /* Center the background image */
     background-size: fill;
     /* Adjust this depending on your needs (cover, contain, etc.) */
