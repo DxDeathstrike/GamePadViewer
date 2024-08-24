@@ -30,6 +30,7 @@
     height: 100%;
     background: url(https://dxdeathstrike.github.io/GamePadViewer/test/Trigger_Pressed.png);
     opacity: 0;
+    transform: scale(1.05);
 }
 
 .ds5 .trigger.left {
@@ -46,6 +47,7 @@
     height: 45px;
     background: url(https://dxdeathstrike.github.io/GamePadViewer/test/Bumper.png) no-repeat;
     opacity: 0;
+    
 }
 
 .ds5 .bumpers {
@@ -58,6 +60,7 @@
 
 .ds5 .bumper.pressed {
     opacity: 0.8;
+    
 }
 
 .ds5 .bumper.left {
@@ -87,8 +90,8 @@
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 546px;
-    bottom: 264px;
+    left: 549px;
+    bottom: 261px;
 }
 
 .ds5 .meta.pressed {
