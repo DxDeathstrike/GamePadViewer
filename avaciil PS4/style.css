@@ -43,7 +43,7 @@
 
 .ds4 .trigger.left{ 
     left: 140px;
-    top: 0px;
+    top: 5px;
     width: 217px;
     height: 201px;
     z-index: 37;
@@ -52,8 +52,8 @@
     background-repeat:no-repeat;
 }
 .ds4 .trigger.right{
-    left: 1309px;
-    top: 0px;
+    left: 1308px;
+    top: 5px;
     width: 218px;
     height: 200px;
     z-index: 38;
@@ -87,7 +87,7 @@
 
     .ds4 .bumper.left{
         left: 115px;
-        top: 130px;
+        top: 135px;
         width: 247px;
         height: 45px;
         z-index: 39;
@@ -119,8 +119,8 @@
 
 
     .ds4 .back.pressed{
-        left: 200px;
-        top: 85px;
+        left: 203px;
+        top: 90px;
         width: 70px;
         height: 121px;
         z-index: 42;
@@ -130,8 +130,8 @@
     }
 
     .ds4 .start.pressed{
-        left: 1030px;
-        top: 85px;
+        left: 1025px;
+        top: 90px;
         width: 70px;
         height: 121px;
         z-index: 43;
@@ -163,7 +163,7 @@
     }
 
     .ds4 .a.pressed{
-        background: url(X.png); 
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/X.png); 
         left: 930px;
         top: 515px;
         width: 136px;
@@ -204,9 +204,9 @@
     }
 
     .ds4 .meta.pressed{
-        background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/PS_Button.png) ; 
-        left: 890px;
-        top: 825px;
+        background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/PS%20Button.png) ; 
+        left: 888px;
+        top: 830px;
         width: 104px;
         height: 100px;
         z-index: 54;
@@ -251,7 +251,7 @@
         height: 240px;
         z-index: 52;
         background-repeat:no-repeat;
-        transform: scale(0.5);
+        background-size: 95%;
     }
     
     .ds4 .stick.right{
@@ -263,6 +263,7 @@
         height: 240px;
         z-index: 53;
         background-repeat:no-repeat;
+        background-size: 95%;
     }
 
 
@@ -282,8 +283,8 @@
 
     .ds4 .face.right.pressed{
         background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/Right.png); 
-        left: 340px;
-        top: 530px;
+        left: 335px;
+        top: 538px;
         width: 395px;
         height: 219px;
         z-index: 56;
@@ -292,8 +293,8 @@
     
     .ds4 .face.left.pressed{
         background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/Left.png); 
-        left: 145px;
-        top: 530px;
+        left: 140px;
+        top: 537px;
         width: 148px;
         height: 120px;
         z-index: 45;
@@ -302,7 +303,7 @@
     
     .ds4 .face.up.pressed{
         background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/Up.png); 
-        left: 250px;
+        left: 255px;
         top: 425px;
         width: 116px;
         height: 150px;
@@ -312,8 +313,8 @@
     
     .ds4 .face.down.pressed{ 
         background: url(https://dxdeathstrike.github.io/GamePadViewer/avaciil%20PS4/Down.png); 
-        left: 250px;
-        top: 610px;
+        left: 254px;
+        top: 618px;
         width: 117px;
         height: 150px;
         z-index: 47;
@@ -321,8 +322,8 @@
     }
     .ds4 .touchpad.pressed{
         position:absolute;
-        left: 600px;
-        top: 280px;
+        left: 601px;
+        top: 285px;
         width: 675px;
         height: 385px;
         z-index: 41;
