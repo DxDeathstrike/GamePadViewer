@@ -1,0 +1,267 @@
+
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Base.png);
+    height: 598px;
+    width: 806px;
+}
+
+.ds4.disconnected {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Base.png);
+}
+
+.ds4.disconnected div {
+    display: none;
+}
+
+.ds4 .triggers {
+    width: 588px;
+    height: 90px;
+    position: absolute;
+    top: px;
+    left: 109px;
+}
+
+.ds4 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Triggers_Pressed.png);
+    opacity: 0;
+}
+
+.ds4 .trigger.left {
+    float: left;
+}
+
+.ds4 .trigger.right {
+    background-position-x: 98px;
+    float: right;
+}
+
+.ds4 .bumper {
+    width: 99px;
+    height: 23px;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .bumpers {
+    position: absolute;
+    width: 588px;
+    height: 23px;
+    left: 112px;
+    top: 94px;
+}
+
+.ds4 .bumper.pressed {
+    opacity: 1;
+}
+
+.ds4 .bumper.left {
+    float: left;
+}
+
+.ds4 .bumper.right {
+    float: right;
+    transform: rotateY(180deg) translateX(3px);
+}
+
+.ds4 .touchpad {
+    width: 262px;
+    height: 151px;
+    position: absolute;
+    left: 274px;
+    top: 119px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Touchpad.png) no-repeat center;
+}
+
+.ds4 .meta {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    left: 383px;
+    bottom: 215px;
+    top: 335px;
+}
+
+.ds4 .meta.pressed {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/PS_Logo.png) no-repeat center;
+}
+
+.ds4 .arrows {
+    position: absolute;
+    width: 352px;
+    height: 46px;
+    top: 142px;
+    left: 227px;
+}
+
+.ds4 .back,
+.ds4 .start {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Start.png);
+    width: 27px;
+    height: 48px;
+    opacity: 0;
+}
+
+.ds4 .back.pressed,
+.ds4 .start.pressed {
+    opacity: 1;
+}
+
+.ds4 .back {
+    float: left;
+    transform: translateY(-6px) scale(0.9);
+}
+
+.ds4 .start {
+    float: right;
+    background-position: 28px 0;
+    transform: translateX(1px) translateY(-6px) scale(0.9);
+}
+
+
+
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 156px;
+    left: 569px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Face_Button.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 0;
+    top: 119px;
+    left: 58px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 60px;
+    right: -2px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 58px;
+    right: 115px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    top: 1px;
+    left: 56px;
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 309px;
+    left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.ds4 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 182px;
+    left: 92px;
+}
+
+.ds4 .face {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/jaymoon1990%20PS4/Dpad.png);
+    position: absolute;
+}
+
+.ds4 .face.up,
+.ds4 .face.down {
+    width: 36px;
+    height: 52px;
+}
+
+.ds4 .face.left,
+.ds4 .face.right {
+    width: 52px;
+    height: 36px;
+}
+
+.ds4 .face.right.pressed {
+    left: 73px;
+}
+
+.ds4 .face.up {
+    left: 44px;
+    bottom: 10;
+    background-position: -37px 0px;
+}
+
+.ds4 .face.down {
+    left: 44px;
+    top: 74px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+.ds4 .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.ds4 .face.pressed {
+    background-position-y: 52px;
+}
+
+.ds4.half {
+    margin-top: -300px;
+}
+
+/*END PS4 Controller Styling*/
