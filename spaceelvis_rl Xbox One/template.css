@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/base.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/base.png);
     height: 631px;
     width: 723px;
     /*    margin-left: -375px;
@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/base-white.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/base-white.png);
 }
 
 .xbox.disconnected {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/disconnected.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/disconnected.png);
 }
 
 .xbox.disconnected div {
@@ -29,7 +29,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/trigger.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/trigger.png);
     opacity: 0;
 }
 
@@ -46,7 +46,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/bumper.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/bumper.png);
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/quadrant.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/quadrant.png);
     height: 45px;
     width: 45px;
     top: 228px;
@@ -111,7 +111,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/start-select.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/start-select.png);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +140,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/abxy.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/abxy.png);
     width: 48px;
     height: 48px;
 }
@@ -206,7 +206,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/stick.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/stick.png);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -235,7 +235,7 @@
 }
 
 .xbox .face {
-    background: url(https://dxdeathstrike.github.io/GamePadViewer/Xbox%20One%20snowfield/dpad.png);
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/spaceelvis_rl%20Xbox%20One/dpad.png);
     position: absolute;
     opacity: 0;
 }
