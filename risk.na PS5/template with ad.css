@@ -1,0 +1,330 @@
+/* Begin PS5 Controller Styling */
+
+.controller.ds5 {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/base.png) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+}
+
+.ds5.disconnected div {
+    display: none;
+}
+
+.ds5 .triggers {
+    width: 598px;
+    height: 90px;
+    position: absolute;
+    left: 299px;
+    top: 38px;
+}
+
+.ds5 .trigger {
+    width: 99px;
+    height: 100%;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Trigger_Pressed.png);
+    opacity: 0;
+}
+
+.ds5 .trigger.left {
+    float: left;
+}
+
+.ds5 .trigger.right {
+    float: right;
+    background-position-x: 99px;
+}
+
+.ds5 .bumper {
+    width: 200px;
+    height: 45px;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.ds5 .bumpers {
+    position: absolute;
+    width: 672px;
+    height: 23px;
+    left: 293px;
+    top: 132px;
+}
+
+.ds5 .bumper.pressed {
+    opacity: 0.8;
+}
+
+.ds5 .bumper.left {
+    float: left;
+}
+
+.ds5 .bumper.right {
+    float: left;
+    transform: rotateY(180deg) translateX(-210px);
+}
+
+.ds5 .touchpad {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 424px;
+    top: 76px;
+}
+
+.ds5 .touchpad.pressed {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Touchpad.png) no-repeat center;
+}
+
+/* Animate the touchpad area as an "ad zone" */
+.ds5 .meta {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Advertising.png) no-repeat center center;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    animation: Advertising 1500s infinite;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.ds5 .meta.pressed {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Home.png) no-repeat center;
+}
+
+.ds5 .p0 { background-position: 0 -6px; }
+.ds5 .p1 { background-position: 0 -28px; }
+.ds5 .p2 { background-position: 0 -49px; }
+.ds5 .p3 { background-position: 0 -70px; }
+
+/*/ D-pad Arrows Section */
+.ds5 .arrows {
+    position: absolute;
+    width: 352px;
+    height: 46px;
+    top: 142px;
+    left: 227px;
+}
+
+.ds5 .back,
+.ds5 .start {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Select.png);
+    width: 26px;
+    height: 43px;
+    opacity: 0;
+}
+
+.ds5 .start {
+    position: absolute;
+    left: 546px;
+    bottom: -30px;
+}
+
+.ds5 .back {
+    position: absolute;
+    left: 170px;
+    bottom: -30px;
+}
+
+.ds5 .back.pressed,
+.ds5 .start.pressed {
+    opacity: 1;
+}
+
+.ds5 .back {
+    float: left;
+}
+
+.ds5 .start {
+    float: right;
+    background-position: 0px 0;
+}
+
+.ds5 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 200px;
+    left: 762px;
+}
+
+.ds5 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/FaceButtons.png);
+}
+
+.ds5 .button.pressed {
+    background-position-y: 55px;
+}
+
+.ds5 .a {
+    background-position: 0 0;
+    bottom: 0px;
+    left: 58px;
+}
+
+.ds5 .b {
+    background-position: -57px 0;
+    top: 57px;
+    right: -3px;
+}
+
+.ds5 .x {
+    background-position: -113px 0;
+    top: 57px;
+}
+
+.ds5 .y {
+    background-position: 55px 0;
+    left: 58px;
+    bottom: 117px;
+}
+
+.ds5 .sticks {
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 348px;
+    left: 422px;
+}
+
+.ds5 .stick {
+    position: absolute;
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds5 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds5 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds5 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds5 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.ds5 .dpad {
+    position: absolute;
+    width: 125px;
+    height: 126px;
+    top: 220px;
+    left: 286px;
+}
+
+.ds5 .face {
+    background: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Dpad.png);
+    position: absolute;
+}
+
+.ds5 .face.up,
+.ds5 .face.down {
+    width: 37px;
+    height: 52px;
+}
+
+.ds5 .face.left,
+.ds5 .face.right {
+    width: 52px;
+    height: 40px;
+}
+
+.ds5 .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.ds5 .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds5 .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+.ds5 .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.ds5 .face.pressed {
+    background-position-y: 52px;
+}
+
+.ds5.half {
+    margin-top: -300px;
+}
+
+.ds5.white .back,
+.ds5 .start {
+    background-image: url(https://dxdeathstrike.github.io/GamePadViewer/risk.na%20PS5/Start.png);
+    width: 26px;
+    height: 43px;
+}
+
+.ds5 .start {
+    position: absolute;
+    top: 175px;
+    left: 772px;
+}
+
+.ds5 .back {
+    position: absolute;
+    top: 175px;
+    left: 396px;
+}
+
+/* Advertising animation keyframes */
+@keyframes Advertising {
+  0%     { transform: translateY(1000px) scale(0.2); opacity: 0; }
+  0.6%   { transform: translateY(1000px) scale(0.2); opacity: 1; }
+  
+  /* Hold at center start */
+  0.72%, 0.9% { transform: translateY(0) scale(1); opacity: 1; }
+  
+  /* Bounce 1 */
+  0.91%  { transform: translateY(-30px) scale(1.02); opacity: 1; }
+  0.925% { transform: translateY(15px) scale(0.98); opacity: 1; }
+  0.94%  { transform: translateY(0) scale(1); opacity: 1; }
+  
+  /* Hold between bounces */
+  0.94%, 1.12% { transform: translateY(0) scale(1); opacity: 1; }
+  
+  /* Bounce 2 */
+  1.13%  { transform: translateY(-30px) scale(1.02); opacity: 1; }
+  1.145% { transform: translateY(15px) scale(0.98); opacity: 1; }
+  1.16%  { transform: translateY(0) scale(1); opacity: 1; }
+  
+  /* Hold after bounce 2 */
+  1.16%, 1.31% { transform: translateY(0) scale(1); opacity: 1; }
+  
+  /* Exit sequence */
+  1.32%  { transform: translateY(500px) scale(0.5); opacity: 1; }
+  1.37%  { transform: translateY(430px) scale(0.4); opacity: 0.7; }
+  1.44%  { transform: translateY(1000px) scale(0.2); opacity: 0; }
+  
+  100%   { transform: translateY(1000px) scale(0.2); opacity: 0; }
+}
+
+
+/* END PS5 Controller Styling */
